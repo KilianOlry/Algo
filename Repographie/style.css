@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+.formulaire{
+    margin-top: 200px;
+    padding: 20px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nbr{
+    padding: 20px;
+    border-radius: 1rem;
+}
+input{
+    margin: 10px;
+}
