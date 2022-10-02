@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form{
+    display: flex;
+    background-color: green;
+    margin: 0 auto;
+    width: 100%;
+}
+
+input{
+    margin: 10px;
+    padding: 12px;
+    width: 100%;
+}
+
+#submit{
+    margin-top: 50px ;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase; 
+}
+
+#submit:hover{
+    transition: .3s;
+    color: greenyellow;
+    background-color: white;
+}

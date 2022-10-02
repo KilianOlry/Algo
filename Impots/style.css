@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formulaire{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+input{
+    margin: 15px;
+    border-radius: 2rem;
+    padding: 15px;
+}
+
+
+#submit{
+    text-transform: uppercase;
+}
+#submit:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+
+}
